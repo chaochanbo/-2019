@@ -1,0 +1,11 @@
+<!--pages/video/video.wxml-->
+<view class="container">
+   <!--   <view class="video_list">-->
+   <image style="display: {{deng? 'block':'none'}}" class="deng animated {{deng? 'fadeIn':' '}}"
+          src="/images/deng.png"></image>
+   <video controls autoplay src="{{url}}" poster="{{poster}}"></video>
+   <image class="text" src="/images/text.png"></image>
+   <image class="guanzhong animated" src="/images/guanzhong.png"></image>
+</view>
+
+<!--<web-view src="{{url}}"></web-view>-->

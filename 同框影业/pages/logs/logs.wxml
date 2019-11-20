@@ -1,0 +1,43 @@
+<!--logs.wxml-->
+<view class="container"></view>
+<view class="gif"></view>
+<!--<image class="gif" src="/images/256.gif"></image>-->
+
+<view bindtap="video" class="btn1" style="top: 770rpx; left: 60rpx; display: {{full? 'none':'block'}}" data-id="1" data-title="我有一个想法"></view>
+<view bindtap="video" class="btn2" style="top: 900rpx; left: 60rpx; display: {{full? 'block':'none'}}" data-id="1" data-title="我有一个想法"></view>
+
+<view bindtap="video" class="btn1" style="top: 770rpx; right: 274rpx; display: {{full? 'none':'block'}}" data-id="2" data-title="满京华One Paper"></view>
+<view bindtap="video" class="btn2" style="top: 900rpx; right: 274rpx; display: {{full? 'block':'none'}}" data-id="2" data-title="满京华One Paper"></view>
+
+<view bindtap="video" class="btn1" style="top: 740rpx; right: 50rpx; display: {{full? 'none':'block'}}" data-id="18" data-title="广州，有问西东"></view>
+<view bindtap="video" class="btn2" style="top: 864rpx; right: 50rpx; display: {{full? 'block':'none'}}" data-id="18" data-title="广州，有问西东"></view>
+
+<view bindtap="video" class="btn1" style="top: 572rpx; right: 376rpx; display: {{full? 'none':'block'}}" data-id="14" data-title="华强北是杀不死的"></view>
+<view bindtap="video" class="btn2" style="top: 688rpx; right: 376rpx; display: {{full? 'block':'none'}}" data-id="14" data-title="华强北是杀不死的"></view>
+
+<view bindtap="video" class="btn1" style="top: 600rpx; left: 90rpx; display: {{full? 'none':'block'}}" data-id="6" data-title="再见，深圳"></view>
+<view bindtap="video" class="btn2" style="top: 720rpx; left: 90rpx; display: {{full? 'block':'none'}}" data-id="6" data-title="再见，深圳"></view>
+
+<view bindtap="video" class="btn1" style="top: 594rpx; right: 96rpx; width: 80rpx;height: 80rpx; display: {{full? 'none':'block'}}" data-id="19" data-title="七味广州韵"></view>
+<view bindtap="video" class="btn2" style="top: 716rpx; right: 96rpx; width: 80rpx;height: 80rpx; display: {{full? 'block':'none'}}" data-id="19" data-title="七味广州韵"></view>
+
+<view bindtap="video" class="btn1" style="top: 370rpx; right: 310rpx; display: {{full? 'none':'block'}}" data-id="15" data-title="30秒"></view>
+<view bindtap="video" class="btn2" style="top: 492rpx; right: 300rpx; display: {{full? 'block':'none'}}" data-id="15" data-title="30秒"></view>
+
+<view bindtap="video" class="btn1" style="top: 506rpx; right: 132rpx; width: 50rpx;height: 50rpx; display: {{full? 'none':'block'}}" data-id="9" data-title="我不在汕尾好多年"></view>
+<view bindtap="video" class="btn2" style="top: 630rpx; right: 132rpx; width: 50rpx;height: 50rpx; display: {{full? 'block':'none'}}" data-id="9" data-title="我不在汕尾好多年"></view>
+
+<view bindtap="video" class="btn1" style="top: 420rpx; right: 192rpx; width: 50rpx;height: 50rpx;  display: {{full? 'none':'block'}}" data-id="13" data-title="偷听闺蜜的秘密"></view>
+<view bindtap="video" class="btn2" style="top: 546rpx; right: 192rpx; width: 50rpx;height: 50rpx; display: {{full? 'block':'none'}}" data-id="13" data-title="偷听闺蜜的秘密"></view>
+
+<view bindtap="video" class="btn1" style="top: 420rpx; left: 140rpx; width: 80rpx;height: 80rpx;  display: {{full? 'none':'block'}}" data-id="8" data-title="我与深圳是什么关系"></view>
+<view bindtap="video" class="btn2" style="top: 546rpx; left: 140rpx; width: 80rpx;height: 80rpx; display: {{full? 'block':'none'}}" data-id="8" data-title="我与深圳是什么关系"></view>
+
+<view bindtap="video" class="btn1" style="top: 254rpx; left: 152rpx; width: 40rpx;height: 40rpx;  display: {{full? 'none':'block'}}" data-id="7" data-title="就是正岩"></view>
+<view bindtap="video" class="btn2" style="top: 380rpx; left: 152rpx; width: 40rpx;height: 40rpx; display: {{full? 'block':'none'}}" data-id="7" data-title="就是正岩"></view>
+
+<view bindtap="video" class="btn1" style="top: 226rpx; left: 280rpx; width: 70rpx;height: 70rpx;  display: {{full? 'none':'block'}}" data-id="10" data-title="我被通缉了"></view>
+<view bindtap="video" class="btn2" style="top: 340rpx; left: 280rpx; width: 70rpx;height: 70rpx; display: {{full? 'block':'none'}}" data-id="10" data-title="我被通缉了"></view>
+
+<view bindtap="video" class="btn1" style="top: 280rpx; right: 286rpx; width: 40rpx;height: 40rpx;  display: {{full? 'none':'block'}}" data-id="5" data-title="一座城市的荣耀"></view>
+<view bindtap="video" class="btn2" style="top: 400rpx; right: 286rpx; width: 40rpx;height: 40rpx; display: {{full? 'block':'none'}}" data-id="5" data-title="一座城市的荣耀"></view>

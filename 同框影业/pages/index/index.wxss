@@ -1,0 +1,66 @@
+/**index.wxss**/
+page{
+  background: #000;
+}
+
+.container{
+  padding: 0;
+}
+
+.deng{
+  width: 100%;
+  height: 100vh;
+}
+
+.ren{
+  position: absolute;
+  top: 258rpx;
+}
+
+video{
+  position: absolute;
+  top: 488rpx;
+  width: 646rpx;
+  height: 366rpx;
+}
+
+.vlog{
+  width: 330rpx;
+  height: 132rpx;
+  position: absolute;
+  top: 662rpx;
+}
+
+.click{
+  position: absolute;
+  top: 795rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.logo{
+  width: 188rpx;
+  height: 26rpx;
+  position: absolute;
+  top: 1146rpx;
+}
+
+@keyframes fade {
+  from { opacity: 1.0;}
+  50% { opacity: 0.2;}
+  to { opacity: 1.0;}
+}
+
+@-webkit-keyframes fade {
+  from { opacity: 1.0; }
+  50% { opacity: 0.2; }
+  to { opacity: 1.0;}
+}
+
+.click {
+  animation:fade 1500ms infinite;
+  -webkit-animation:fade 1500ms infinite;
+  margin: 0 auto;
+}
+
+

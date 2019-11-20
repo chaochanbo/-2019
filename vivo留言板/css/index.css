@@ -1,0 +1,405 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Heavy';
+  src: url('../font/PingFang Heavy.eot');
+  src:
+      url('../font/PingFang Heavy?#font-spider') format('embedded-opentype'),
+      url('../font/PingFang Heavy.woff') format('woff'),
+      url("../font/PingFang Heavy.ttf") format('truetype'),
+      url('../font/PingFang Heavy.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Medium';
+  src: url('../font/PingFang Medium.eot');
+  src:
+      url('../font/PingFang Medium?#font-spider') format('embedded-opentype'),
+      url('../font/PingFang Medium.woff') format('woff'),
+      url("../font/PingFang Medium.ttf") format('truetype'),
+      url('../font/PingFang Medium.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body{
+  background: #415fff;
+}
+
+img.banner{
+  width: 100%;
+  height: 1.8rem;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.text-box{
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  width: 2.78rem;
+  /*height: 1.08rem;*/
+  margin: 0 auto 0.1rem;
+}
+
+textarea{
+  width: 2.78rem;
+  height: 1.08rem;
+  display: block;
+  border: none;
+  background: #415fff;
+  padding: 0.1rem 0;
+  outline:none;
+  color: #fff;
+  caret-color: #fff;
+  font-size: 0.11rem;
+  font-family: "Medium";
+  resize:none
+}
+
+textarea::-webkit-input-placeholder{
+  color: #6f86fe;
+  font-size: 0.11rem;
+}    /* 使用webkit内核的浏览器 */
+textarea:-moz-placeholder{
+  color: #6f86fe;
+  font-size: 0.11rem;
+}                  /* Firefox版本4-18 */
+textarea::-moz-placeholder{
+  color: #6f86fe;
+  font-size: 0.11rem;
+}                  /* Firefox版本19+ */
+textarea:-ms-input-placeholder{
+  color: #6f86fe;
+  font-size: 0.11rem;
+}           /* IE浏览器 */
+
+.btn{
+  width: 1.475rem;
+  height: 0.3rem;
+  display: block;
+  margin: 0 auto 0.3rem;
+}
+
+.pl-list{
+  width: 2.78rem;
+  margin:  0 auto;
+}
+
+
+.list{
+  overflow: hidden;
+  font-size: 0;
+}
+
+.pl-list .tximg{
+  font-size: 0px;
+  display: inline-block;
+  width: 2.78rem;
+}
+
+.pl-list .tximg img{
+  width: 0.35rem;
+  height: 0.35rem;
+  border-radius: 50%;
+  margin-right: 0.1rem;
+  vertical-align: top;
+}
+
+.tximg .name{
+  display: inline-block;
+  font-size: 0.12rem;
+  /*font-weight: bold;*/
+  color: #fff;
+  font-family: "Heavy";
+  /*font-weight: bold;*/
+}
+
+.text{
+  padding-left: 0.45rem;
+  position: relative;
+  bottom: 0.12rem;
+  line-height: 0.18rem;
+}
+
+.text{
+  font-size: 0.11rem;
+  color: #fff;
+  font-family: "Medium";
+/*  text-align: justify;
+  word-spacing:-2px;*/
+}
+
+.time {
+  font-size: 0.08rem;
+  padding-left: 0.43rem;
+  color: #7f95ff;
+  display: inline-block;
+  font-family: "Medium";
+  position: relative;
+  top: 0.04rem;
+}
+
+.zan{
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  font-size: 0;
+}
+
+.pl-list .zan img{
+  width: 0.18rem;
+  height: 0.18rem;
+  display: inline-block;
+  margin-right: 0.05rem;
+}
+
+.pl-list .zan .zanimg{
+  position: relative;
+  bottom: 0.03rem;
+}
+
+.pl-list .zan div{
+  font-size: 0.1rem;
+  display: inline-block;
+  color: #7f95ff;
+  font-family: "Heavy";
+}
+
+.pl-list .zan div.active{
+  color: #fff100;
+}
+
+.xian{
+  padding-left: 0.45rem;
+  margin: 0.1rem 0 0.15rem;
+}
+
+.xian div{
+  height: 1px;
+  background: #6980fe;
+}
+
+.jiazai{
+  width: 100%;
+  text-align: center;
+  color: #e7e7e7;
+  line-height: 0.15rem;
+  font-size: 0.12rem;
+  margin-bottom: 0.2rem;
+  font-family: "Heavy";
+}
+
+.success{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 2rem;
+  /*bottom: 0;*/
+  margin:auto;
+  width: 1rem;
+  height: 1rem;
+  display: none;
+}
+
+.success img{
+  width: 1rem;
+  height: 1rem;
+}
+
+/*--------------------------------*/
+.huifu{
+  margin-left: 0.45rem;
+  margin-top: 0.1rem;
+  overflow: hidden;
+  position: relative;
+  background: rgba(127,149,255,.5);
+  width: 2.33rem;
+  border-radius: 0.02rem;
+}
+
+.huifu p{
+  color: #fff;
+  font-size: 0.10rem;
+  font-family: "Medium";
+  padding-right: 0.05rem;
+  line-height: 0.15rem;
+  padding-left: 0.05rem;
+}
+
+.huifu p:first-child{
+  margin-top: 0.02rem;
+}
+
+.huifu p:last-child{
+  margin-bottom: 0.02rem;
+}
+
+.huifu p span{
+  font-size: 0.10rem;
+  font-family: "Medium";
+  /*font-weight: bold;*/
+  color: #1713b2;
+}
+
+.inputs{
+  background: #f5f5f5;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0.1rem 0.15rem;
+  height: auto;
+  font-size: 0px;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: none;
+}
+
+.inputs textarea{
+  background: #fff;
+  caret-color: #000;
+  height: 0.45rem;
+  font-size: 0.11rem;
+  padding: 0 0.05rem;
+  line-height: 0.15rem;
+  /*outline:none;*/
+  box-sizing: border-box;
+  color: #000;
+  letter-spacing : 0.01rem;
+  /*overflow:hidden;*/
+  width: 2.3rem;
+  font-family: Medium;
+  display: inline-block;
+}
+
+.inputs textarea::-webkit-input-placeholder{
+  color: #ccc;
+  font-size: 0.11rem;
+}    /* 使用webkit内核的浏览器 */
+.inputs textarea:-moz-placeholder{
+  color: #ccc;
+  font-size: 0.11rem;
+}                  /* Firefox版本4-18 */
+.inputs textarea::-moz-placeholder{
+  color: #ccc;
+  font-size: 0.11rem;
+}                  /* Firefox版本19+ */
+.inputs textarea:-ms-input-placeholder{
+  color: #ccc;
+  font-size: 0.11rem;
+}
+
+
+.inBtn{
+  width: 0.5rem;
+  height: 0.3rem;
+  font-size: 0.1rem;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  background: #8296ff;
+  line-height: 0.3rem;
+  float: right;
+  border-radius: 0.06rem;
+  position: relative;
+  top: 0.1rem;
+  right: 0.27rem;
+}
+
+.huifuimg{
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  position: relative;
+  right: 0.1rem;
+}
+
+
+.pl-list .huifuimg img{
+  width: 0.18rem;
+  height: 0.18rem;
+  margin: 0;
+}
+
+.hf-name{
+  /*background: #7f95ff;*/
+  margin-right: 0.05rem;
+}
+
+.ht{
+  position: fixed;
+  bottom: 0.2rem;
+  right: 0.2rem;
+  width: 0.5rem;
+  display: block;
+  box-shadow: 0.01rem 0.01rem 0.1rem 0 rgba(0,0,0,.6);
+  border-radius: 50%;
+}
+
+/*往期话题*/
+.wq{
+  width: 2.78rem;
+  margin: 0.3rem auto 0.3rem;
+  font-size: 0;
+}
+
+.wq .wq_banner{
+  width: 100%;
+  height: 1.69rem;
+  border-radius: 0.06rem;
+  margin-bottom: 0.08rem;
+  box-shadow: 0.01rem 0 0.2rem 0 rgba(0,0,0,.7);
+}
+
+.wq_text p{
+  font-size: 0.1rem;
+  font-family: 'Medium';
+  color: #fff;
+}
+
+.wq_text{
+  display: flex;
+  justify-content: space-between;
+  font-size: 0;
+}
+
+.wq_img img{
+  width: 0.17rem;
+}
+
+.pl_img{
+  margin-right: 0.15rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

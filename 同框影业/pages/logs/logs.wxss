@@ -1,0 +1,45 @@
+page{
+  background: #666;
+}
+
+.container{
+  width: 100%;
+  padding: 0;
+  /*align-items: flex-start;*/
+  background-image: url("http://guoben.club/video.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  background-size: cover;
+  position: absolute;
+  z-index: 2;
+}
+
+/*.video{
+  width: 100%;
+  display: block;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+}*/
+
+.gif{
+  width: 100%;
+  padding: 0;
+  /*align-items: flex-start;*/
+  background-image: url("http://guoben.club/1.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  background-size: cover;
+  position: absolute;
+}
+
+.btn1,.btn2{
+  width: 100rpx;
+  height: 100rpx;
+  background: #000;
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+}

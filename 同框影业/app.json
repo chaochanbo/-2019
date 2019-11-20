@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/video/video"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "同框影业",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#000"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport"
+         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>案例</title>
+</head>
+<link rel="shortcut icon" href="../images/favicon.ico" >
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/media.css">
+<body>
+<style>
+   @media (max-width: 767px){
+      #content{
+         margin-top: 65px;
+      }
+   }
+</style>
+<nav class="navbar navbar-default">
+   <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="#">
+            <img class="logo" src="../images/logo.png" alt="">
+         </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav">
+            <li class="home"><a href="../index.html"><span>HOME</span></a></li>
+            <li class="anli"><a href="anli.html"><span>CASE</span></a></li>
+            <li class="video"><a href="video.html"><span>FILM</span></a></li>
+<!--            <li class="about"><a href="about.html"><span>ABOUT</span></a></li>-->
+         </ul>
+      </div><!-- /.navbar-collapse -->
+   </div><!-- /.container-fluid  -->
+</nav>
+
+<div id="videoBox">
+   <img class="deng animated" src="../images/videobox.png" alt="">
+   <div class="video-list">
+      <video autoplay="autoplay" controls="controls" class="" src="http://guoben.club/1%20%E6%83%B3%E6%B3%95_onekeybatch.mp4"></video>
+   </div>
+   <img class="guanzhong" src="../images/guanzong.png" alt="">
+</div>
+
+<footer>
+   <div class="text">
+      <div class="bottom">
+         <p class="all1" style="font-size: 10px">©2019深圳市超链接广告有限公司，LLC.Allrightsreserved</p>
+      </div>
+   </div>
+</footer>
+</body>
+<style>
+   footer{
+      background: #1d1819;
+      color: #fff;
+      /*padding: 50px 90px;*/
+      width: 100%;
+      position: relative;
+      bottom: 0;
+   }
+
+   footer .text{
+      /*width: 1100px;*/
+      margin: 0 auto;
+      overflow: hidden;
+      text-align: center;
+      padding: 14px 0 10px;
+   }
+
+   footer .center img{
+      width: 178px;
+      height: 48px;
+   }
+
+   footer .center{
+      display: flex;
+      align-items: center;
+   }
+</style>
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/index.js"></script>
+<script>
+    function getQueryVariable(variable)
+    {
+        var query = window.location.search.substring(1);
+        var vars = query.split("?");
+        for (var i=0;i<vars.length;i++) {
+            var pair = vars[i].split("=");
+            if(pair[0] == variable){return pair[1];}
+        }
+        return(false);
+    }
+    var src = getQueryVariable("id")
+    $('video').attr('src','https://www.chaochuanbo.com/video/' + src + '.mp4')
+</script>
+</html>

@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+   <image style="display: {{deng? 'block':'none'}}" class="deng animated {{deng? 'fadeIn':' '}}" src="/images/deng.png"></image>
+   <image style="display: {{ ren? 'block':'none'}}" class="ren animated {{ren? 'fadeInDown':' '}}" src="/images/ren.png"></image>
+  <video style="display: {{video? 'block':'none'}}" class="animated {{video? 'fadeIn':' '}}"
+         bindended="goTo" show-center-play-btn="{{play}}"
+         controls="{{controls}}" autoplay="{{autoplay}}"
+         src="https://www.chaochuanbo.com/video/title.mp4"></video>
+   <image bindtap="video" style="display: {{vlog? 'block':'none'}}" class="vlog animated {{vlog? 'fadeInDown':' '}}" src="/images/vlog.png"></image>
+   <image bindtap="video"class="click animated {{click? 'fadeInDown':' '}}" style="display: {{click? 'block':'none'}}" src="/images/click.png"></image>
+
+   <image style="display: {{logo? 'block':'none'}}" class="logo animated {{logo? 'fadeIn':' '}}" src="/images/logo.png"></image>
+</view>
